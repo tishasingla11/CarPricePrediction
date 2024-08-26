@@ -1,0 +1,12 @@
+prefix=c:/Users/tisha/OneDrive/Desktop/CarPricePrediction/carpricepredictionenv/Library
+exec_prefix=c:/Users/tisha/OneDrive/Desktop/CarPricePrediction/carpricepredictionenv/Library
+libdir=c:/Users/tisha/OneDrive/Desktop/CarPricePrediction/carpricepredictionenv/Library/lib
+includedir=c:/Users/tisha/OneDrive/Desktop/CarPricePrediction/carpricepredictionenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
